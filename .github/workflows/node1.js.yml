@@ -3,7 +3,7 @@ name: My First Sample CICD Pipeline
 on: [pull_request]
 
 jobs:
-  My job:
+  my_job:
 
     runs-on: ubuntu-latest
 
