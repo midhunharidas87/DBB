@@ -1,0 +1,13 @@
+name: My First Sample CICD Pipeline
+
+on: [push]
+
+jobs:
+  My job:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Sample script
+      run: echo " My First CICD Pipeline"
