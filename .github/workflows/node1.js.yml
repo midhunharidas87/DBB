@@ -1,6 +1,6 @@
 name: My First Sample CICD Pipeline
 
-on: [push]
+on: [pull_request]
 
 jobs:
   My job:
